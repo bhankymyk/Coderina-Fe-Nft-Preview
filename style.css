@@ -36,14 +36,10 @@ span:hover {
     color: cyan;
 }
 .img-eth{
-    /* margin-top: 5px; */
-    /* height: 200px; */
-    /* width: px; */
     cursor: pointer;
     opacity: 1;
     display: block;
     transition: .5s ease;
-    backface-visibility: hidden;
 }
 .middle{
     transition: .5s;
@@ -58,14 +54,17 @@ span:hover {
     opacity: 0.3;
 }
 .contain:hover .middle {
-    opacity: 1;
-}
-.icon{
-    color: cyan;
+    opacity: 0.5;
+    /* background-color: cyan; */
 }
 .avatar{
     border-radius: 50% ;
     border: 2px solid white;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(230, 50%, 98%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(230, 50%, 98%);
+}
