@@ -70,3 +70,9 @@ span:hover {
 .attribution a { 
     color: hsl(230, 50%, 98%);
 }
+@media(max-width:768px){
+    .main-card{
+        width: 65%;
+    }
+    
+}
