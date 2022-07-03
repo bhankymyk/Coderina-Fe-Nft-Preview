@@ -72,7 +72,7 @@ span:hover {
 }
 @media(max-width:768px){
     .main-card{
-        width: 80%;
+        width: 85%;
     }
     p {
         white-space: nowrap;
