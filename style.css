@@ -23,6 +23,7 @@ p{
 }
 h4{
     margin-top: 10px;
+    font-size: 300;
 }
 h4, span{
     color: white;
@@ -70,6 +71,11 @@ span:hover {
 .attribution a { 
     color: hsl(230, 50%, 98%);
 }
+hr{
+    opacity: 1;
+}
+
+/* Mobile phone screen size  */
 @media(max-width:768px){
     .main-card{
         width: 85%;
@@ -77,5 +83,4 @@ span:hover {
     p {
         white-space: nowrap;
     }
-    
 }
