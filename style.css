@@ -74,5 +74,8 @@ span:hover {
     .main-card{
         width: 80%;
     }
+    p {
+        white-space: nowrap;
+    }
     
 }
